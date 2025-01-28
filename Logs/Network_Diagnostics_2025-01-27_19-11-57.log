@@ -1,0 +1,99 @@
+Diagnostics for youtube.com at 2025-01-27 19:11:57.663924:
+
+ PING RESULTS:
+Pinging youtube.com [142.250.68.110] with 32 bytes of data:
+Reply from 142.250.68.110: bytes=32 time=15ms TTL=115
+Reply from 142.250.68.110: bytes=32 time=12ms TTL=115
+Reply from 142.250.68.110: bytes=32 time=14ms TTL=115
+Reply from 142.250.68.110: bytes=32 time=14ms TTL=115
+
+Ping statistics for 142.250.68.110:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 12ms, Maximum = 15ms, Average = 13ms
+
+
+ TRACERT RESULTS:
+Tracing route to youtube.com [142.250.68.110]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2    10 ms     4 ms     8 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3    12 ms    12 ms    10 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    19 ms    15 ms    16 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    13 ms     8 ms     6 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    17 ms    16 ms    14 ms  72.14.221.250 
+  8    13 ms    15 ms    13 ms  142.251.238.107 
+  9    16 ms    23 ms    15 ms  142.250.226.49 
+ 10    17 ms    15 ms    13 ms  lax31s12-in-f14.1e100.net [142.250.68.110] 
+
+Trace complete.
+
+--------------------------------------------------
+Diagnostics for google.com at 2025-01-27 19:12:39.136605:
+
+ PING RESULTS:
+Pinging google.com [142.250.72.238] with 32 bytes of data:
+Reply from 142.250.72.238: bytes=32 time=17ms TTL=116
+Reply from 142.250.72.238: bytes=32 time=15ms TTL=116
+Reply from 142.250.72.238: bytes=32 time=15ms TTL=116
+Reply from 142.250.72.238: bytes=32 time=17ms TTL=116
+
+Ping statistics for 142.250.72.238:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 15ms, Maximum = 17ms, Average = 16ms
+
+
+ TRACERT RESULTS:
+Tracing route to google.com [142.250.72.238]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2     9 ms     9 ms    12 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3     9 ms     8 ms    16 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    14 ms    17 ms    15 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    13 ms    12 ms    12 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    15 ms    17 ms    15 ms  72.14.221.250 
+  8    15 ms    16 ms    14 ms  142.251.238.107 
+  9    15 ms    22 ms    23 ms  209.85.249.177 
+ 10    15 ms    15 ms    15 ms  lax31s14-in-f14.1e100.net [142.250.72.238] 
+
+Trace complete.
+
+--------------------------------------------------
+Diagnostics for 8.8.8.8 at 2025-01-27 19:13:25.137240:
+
+ PING RESULTS:
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=13ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=11ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=15ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=13ms TTL=115
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 11ms, Maximum = 15ms, Average = 13ms
+
+
+ TRACERT RESULTS:
+Tracing route to dns.google [8.8.8.8]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2     8 ms    12 ms     9 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3    10 ms     9 ms    11 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    16 ms    15 ms    15 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    11 ms    11 ms    15 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    14 ms    12 ms    17 ms  72.14.221.250 
+  8    17 ms    18 ms    16 ms  172.253.51.23 
+  9    23 ms    13 ms    12 ms  142.250.226.51 
+ 10    12 ms    16 ms    11 ms  dns.google [8.8.8.8] 
+
+Trace complete.
+
+--------------------------------------------------

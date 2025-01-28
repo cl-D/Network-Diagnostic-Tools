@@ -1,0 +1,3 @@
+youtube.com
+google.com
+8.8.8.8
