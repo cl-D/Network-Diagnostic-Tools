@@ -43,6 +43,7 @@ def main():
     with open("hosts.txt", "r") as f:
         hosts = f.readlines()
 
+        # Iterate through the hosts in the hosts.txt file
         for host in hosts:
             print(f"Testing host: {host.strip()}")
             log_results(log_file_path, f"Diagnostics for {host.strip()} at {datetime.now()}:")
