@@ -1,0 +1,150 @@
+Diagnostics for youtube.com at 2025-01-29 00:37:20.033422:
+
+ NSLOOKUP RESULTSServer:  UnKnown
+Address:  10.2.0.1
+
+Name:    youtube.com
+Addresses:  2607:f8b0:4025:815::200e
+	  172.217.7.46
+
+
+
+ NSLOOKUP RESULTS WITH GOOGLE DNS SERVERServer:  UnKnown
+Address:  8.8.8.8
+
+
+
+ PING RESULTS:
+Pinging youtube.com [172.217.7.46] with 32 bytes of data:
+Reply from 172.217.7.46: bytes=32 time=29ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=27ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=30ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=24ms TTL=112
+
+Ping statistics for 172.217.7.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 24ms, Maximum = 30ms, Average = 27ms
+
+
+ TRACERT RESULTS:
+Tracing route to youtube.com [172.217.7.46]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2     9 ms     9 ms    11 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3    11 ms     9 ms     8 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    18 ms    15 ms    15 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    14 ms    12 ms    14 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    20 ms    16 ms    14 ms  74.125.118.176 
+  8    18 ms    13 ms    14 ms  108.170.252.103 
+  9    15 ms    14 ms    16 ms  108.170.252.108 
+ 10    18 ms    18 ms    15 ms  108.170.230.131 
+ 11    23 ms    21 ms    19 ms  142.250.238.74 
+ 12    30 ms    29 ms    28 ms  216.239.49.190 
+ 13    27 ms    26 ms    22 ms  142.250.232.109 
+ 14    30 ms    26 ms    24 ms  192.178.96.151 
+ 15    32 ms    29 ms    29 ms  qro02s12-in-f46.1e100.net [172.217.7.46] 
+
+Trace complete.
+
+--------------------------------------------------
+Diagnostics for google.com at 2025-01-29 00:38:53.763345:
+
+ NSLOOKUP RESULTSServer:  UnKnown
+Address:  10.2.0.1
+
+Name:    google.com
+Addresses:  2607:f8b0:4025:811::200e
+	  172.217.7.46
+
+
+
+ NSLOOKUP RESULTS WITH GOOGLE DNS SERVERServer:  UnKnown
+Address:  8.8.8.8
+
+
+
+ PING RESULTS:
+Pinging google.com [172.217.7.46] with 32 bytes of data:
+Reply from 172.217.7.46: bytes=32 time=39ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=40ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=26ms TTL=112
+Reply from 172.217.7.46: bytes=32 time=28ms TTL=112
+
+Ping statistics for 172.217.7.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 26ms, Maximum = 40ms, Average = 33ms
+
+
+ TRACERT RESULTS:
+Tracing route to google.com [172.217.7.46]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2     8 ms    17 ms    10 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3     6 ms    10 ms    11 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    21 ms    16 ms    15 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    10 ms     8 ms    11 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    15 ms    11 ms    13 ms  74.125.118.176 
+  8    16 ms    18 ms    11 ms  108.170.252.103 
+  9    16 ms    44 ms    35 ms  108.170.252.108 
+ 10    16 ms    16 ms    17 ms  108.170.230.131 
+ 11    22 ms    24 ms    18 ms  142.250.238.74 
+ 12    32 ms    29 ms    26 ms  216.239.49.190 
+ 13    27 ms    28 ms    28 ms  142.250.232.109 
+ 14    28 ms    30 ms    30 ms  192.178.96.151 
+ 15    30 ms    31 ms    28 ms  qro02s12-in-f46.1e100.net [172.217.7.46] 
+
+Trace complete.
+
+--------------------------------------------------
+Diagnostics for 8.8.8.8 at 2025-01-29 00:40:03.890827:
+
+ NSLOOKUP RESULTSServer:  UnKnown
+Address:  10.2.0.1
+
+Name:    dns.google
+Address:  8.8.8.8
+
+
+
+ NSLOOKUP RESULTS WITH GOOGLE DNS SERVERServer:  UnKnown
+Address:  8.8.8.8
+
+
+
+ PING RESULTS:
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=13ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=12ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=13ms TTL=115
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 13ms, Average = 12ms
+
+
+ TRACERT RESULTS:
+Tracing route to dns.google [8.8.8.8]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1 
+  2    10 ms     8 ms     9 ms  syn-142-254-186-121.inf.spectrum.com [142.254.186.121] 
+  3     7 ms     7 ms     8 ms  lag-58.lsadcafk02h.netops.charter.com [76.167.31.38] 
+  4     *        *        *     Request timed out.
+  5    18 ms     7 ms    15 ms  lag-20.chwocadq02r.netops.charter.com [72.129.21.40] 
+  6    11 ms     9 ms     9 ms  lag-24.rcr01tustcaft.netops.charter.com [72.129.25.2] 
+  7    14 ms    14 ms    20 ms  72.14.221.250 
+  8     9 ms    13 ms    12 ms  172.253.65.207 
+  9    15 ms    16 ms    12 ms  142.251.79.39 
+ 10    12 ms    12 ms     9 ms  dns.google [8.8.8.8] 
+
+Trace complete.
+
+--------------------------------------------------

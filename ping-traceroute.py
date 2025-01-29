@@ -23,6 +23,22 @@ def traceroute(host):
     except Exception as e:
         return f"Error running traceroute: {e}"
     
+def dns_lookup_with_server(host, dns_server="8.8.8.8"):
+    command = ["nslookup", host, dns_server]
+    try:
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        return result.stdout
+    except Exception as e:
+        return f"Error running nslookup: {e}"
+
+def dns_lookup(host):
+    command = ["nslookup", host]
+    try:
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        return result.stdout
+    except Exception as e:
+        return f"Error running nslookup: {e}"
+        
 # Function to log the results to a file
 def log_results(file_name, data):
     with open(file_name, "a") as f:
@@ -47,6 +63,13 @@ def main():
         for host in hosts:
             print(f"Testing host: {host.strip()}")
             log_results(log_file_path, f"Diagnostics for {host.strip()} at {datetime.now()}:")
+
+            # Perform nslookup
+            print("Running nslookup...")
+            dns_results = dns_lookup(host.strip())
+            dns_results_with_server = dns_lookup_with_server(host)
+            log_results(log_file_path, "\n NSLOOKUP RESULTS"+ dns_results)
+            log_results(log_file_path, "\n NSLOOKUP RESULTS WITH GOOGLE DNS SERVER"+ dns_results_with_server)
 
             # Perform ping
             print("Running ping...")
